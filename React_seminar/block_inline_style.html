@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./block_inline.css">
+	<title>CSS seminar</title>
+</head>
+<body>
+	<h1>ブロック要素</h1>
+		<p>pタグはブロック要素です。</p>
+		<p>そのため、pタグで囲まれた範囲は行全体に広がります。</p>
+		<div>背景色が行全体に広がります。</div>
+		<p>新しく定義したブロック要素は必ず改行されて表示されます。</p>
+
+	<h2>ブロック要素</h2>
+		<p>pタグはブロック要素です。</p>
+		<p>そのため、pタグで囲まれた範囲は行全体に広がります。</p>
+		<div>背景色が行全体に広がります。</div>
+		<p>新しく定義したブロック要素は必ず改行されて表示されます。</p>
+		<p>インライン要素は<span class="yellowline">行の中の一部のまとまり</span>を定義します。</p>
+
+		<!--入れ子にするタグをインライン要素にすれば改行はされない-->
+		<p>pタグの<strong>この部分をstrongタグ（太字）で囲む</strong>と改行されません。</p>
+</body>
+</html>
